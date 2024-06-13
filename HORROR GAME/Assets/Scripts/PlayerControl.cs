@@ -29,8 +29,6 @@ public class PlayerControl : MonoBehaviour
         //Move forward
         transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);
         //Move side way
-     
-
-        transform.Rotate(Vector3.up, horizontalInput * turnSpeed * Time.deltaTime);
+        transform.Translate(Vector3.right * Time.deltaTime * turnSpeed * horizontalInput);
     }
 }
