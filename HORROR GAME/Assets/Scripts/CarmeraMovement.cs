@@ -5,6 +5,7 @@ using UnityEngine;
 public class CarmeraMovement : MonoBehaviour
 {
     public Vector2 turn;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,8 +15,8 @@ public class CarmeraMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        turn.x += Input.GetAxis("Mouse x");
-        turn.y += Input.GetAxis("Mouse y");
-        transform.localRotation = Quaternion.Euler(-turn.y, turn.x, 0);
+        turn.x += Input.GetAxis("Mouse X");
+        turn.y += Input.GetAxis("Mouse Y");
+        transform.localRotation = Quaternion.Euler(-turn.y, turn.x, 2);
     }
 }
