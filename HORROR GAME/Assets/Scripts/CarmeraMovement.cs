@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CarmeraMovement : MonoBehaviour
 {
+    //not my code i got it from Royal skies 
     public Vector2 turn;
     public float sensitivity = .5f;
     public Vector3 deltaMove;
