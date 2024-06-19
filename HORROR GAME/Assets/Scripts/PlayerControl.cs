@@ -31,4 +31,13 @@ public class PlayerControl : MonoBehaviour
         //Move side way
         transform.Translate(Vector3.right * Time.deltaTime * turnSpeed * horizontalInput);
     }
+
+    private void OnCollisionEnter (Collision collision)
+    {
+        if (gameObject.CompareTag("Door"))
+        {
+            transform.Translate(0, 0, 1);
+        }
+        
+    }
 }
