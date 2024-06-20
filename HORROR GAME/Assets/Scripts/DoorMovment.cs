@@ -20,7 +20,7 @@ public class DoorMovment : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             transform.Translate(0, 0, 1);
         }
