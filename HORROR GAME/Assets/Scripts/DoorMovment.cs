@@ -13,6 +13,17 @@ public class DoorMovment : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0, 0, 1);
+        
+
+
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (gameObject.CompareTag("Player"))
+        {
+            transform.Translate(0, 0, 1);
+        }
+
     }
 }
