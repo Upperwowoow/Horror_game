@@ -5,6 +5,7 @@ using UnityEngine;
 public class Jumpscare : MonoBehaviour
 {
     public GameObject Jumpscare9;
+    public GameObject JumpscareBox;
 
     // Start is called before the first frame update
     void Start()
@@ -23,12 +24,19 @@ public class Jumpscare : MonoBehaviour
             StartCoroutine(Disableimg());
 
         }
-        
+       
+        else if (other.gameObject.tag == "Player")
+        {
+            transform.Translate(0, 100, 0);
+
+        }
+
     }
 
     IEnumerator Disableimg()
     {
         yield return new WaitForSeconds(2);
         Jumpscare9.SetActive(false);
+        JumpscareBox.SetActive(false);
     }
 }
