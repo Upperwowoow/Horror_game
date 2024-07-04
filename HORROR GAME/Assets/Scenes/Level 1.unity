@@ -1053,51 +1053,51 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 963194228}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6771839ffe1071141bcae5cec59479ef, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6771839ffe1071141bcae5cec59479ef, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.8485001
+      value: 2.178397
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6771839ffe1071141bcae5cec59479ef, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.8484999
+      value: 3.5299757
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6771839ffe1071141bcae5cec59479ef, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.8485005
+      value: 5.8845773
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6771839ffe1071141bcae5cec59479ef, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 87.9
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6771839ffe1071141bcae5cec59479ef, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 32.2
+      value: -9.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6771839ffe1071141bcae5cec59479ef, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 58.2
+      value: 15.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6771839ffe1071141bcae5cec59479ef, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7346544
+      value: 0.028207019
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6771839ffe1071141bcae5cec59479ef, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.040162656
+      value: 0.008481184
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6771839ffe1071141bcae5cec59479ef, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.67659986
+      value: -0.9975126
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6771839ffe1071141bcae5cec59479ef, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.029706232
+      value: 0.06404079
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6771839ffe1071141bcae5cec59479ef, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1113,7 +1113,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6771839ffe1071141bcae5cec59479ef, type: 3}
       propertyPath: m_Name
-      value: HEND
+      value: Jumpscare
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6771839ffe1071141bcae5cec59479ef, type: 3}
+      propertyPath: m_TagString
+      value: Jumpscare
       objectReference: {fileID: 0}
     - target: {fileID: 5074512353664290214, guid: 6771839ffe1071141bcae5cec59479ef, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2670,6 +2674,65 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 334419203}
   m_Mesh: {fileID: 4711208715938537054, guid: 6b7edb631479bb54aba2bc5ffbd527fa, type: 3}
+--- !u!1 &335513682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 335513685}
+  - component: {fileID: 335513684}
+  - component: {fileID: 335513686}
+  m_Layer: 0
+  m_Name: Jumpscare
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &335513684
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335513682}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &335513685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335513682}
+  m_LocalRotation: {x: -1.1641531e-10, y: 2.202285e-20, z: -4.3655742e-11, w: 1}
+  m_LocalPosition: {x: 89.2, y: 26.2, z: 62.7}
+  m_LocalScale: {x: 1.2138165, y: 49.05408, z: 20.32055}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &335513686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335513682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a287456f60e86ca4c81e34fe4d6cc897, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Jumpscare9: {fileID: 1353372810}
 --- !u!1 &355051321 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8391222552659086748, guid: 57439e514e959e54fbfc730962292634, type: 3}
@@ -8018,7 +8081,8 @@ Transform:
   m_LocalPosition: {x: -0.09739938, y: 0.5363734, z: -0.3426828}
   m_LocalScale: {x: 0.78131306, y: 0.54137754, z: 0.4999042}
   m_ConstrainProportionsScale: 1
-  m_Children: []
+  m_Children:
+  - {fileID: 1353372812}
   m_Father: {fileID: 536104983}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 1.301, y: 1.938, z: -0.257}
@@ -9387,7 +9451,7 @@ RectTransform:
   m_Children:
   - {fileID: 1803755542}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -10597,6 +10661,11 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!4 &1353372812 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6771839ffe1071141bcae5cec59479ef, type: 3}
+  m_PrefabInstance: {fileID: 134838461}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1359294313
 GameObject:
   m_ObjectHideFlags: 0
@@ -14014,7 +14083,7 @@ GameObject:
   - component: {fileID: 1803755544}
   - component: {fileID: 1803755543}
   m_Layer: 5
-  m_Name: RawImage
+  m_Name: Jumpscare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14080,7 +14149,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: 4989b6818136f8447a6f58ed79561159, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
