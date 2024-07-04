@@ -23,7 +23,16 @@ public class DoorMovment : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             transform.Translate(0, 30, 0);
+            StartCoroutine(Disableimg());
         }
 
+
+
+    }
+
+    IEnumerator Disableimg()
+    {
+        yield return new WaitForSeconds(1);
+        transform.Translate(0, -30, 0);
     }
 }

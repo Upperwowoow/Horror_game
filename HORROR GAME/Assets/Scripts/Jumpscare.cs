@@ -25,11 +25,7 @@ public class Jumpscare : MonoBehaviour
 
         }
        
-        else if (other.gameObject.tag == "Player")
-        {
-            transform.Translate(0, 100, 0);
-
-        }
+        
 
     }
 

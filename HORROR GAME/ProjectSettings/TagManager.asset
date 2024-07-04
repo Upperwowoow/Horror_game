@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Door
   - Jumpscare
+  - Door 1
   layers:
   - Default
   - TransparentFX
