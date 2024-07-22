@@ -32,7 +32,7 @@ public class DoorMovment : MonoBehaviour
 
     IEnumerator Disableimg()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         transform.Translate(0, -30, 0);
     }
 }
