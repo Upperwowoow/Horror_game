@@ -8,6 +8,7 @@ TagManager:
   - Jumpscare
   - Door 1
   - END
+  - END2
   layers:
   - Default
   - TransparentFX

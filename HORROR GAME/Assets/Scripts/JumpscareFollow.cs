@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Jumpscare : MonoBehaviour
+public class JumpscareFollow : MonoBehaviour
 {
-    public GameObject JumpscareModel;
+    public GameObject Jumpscare9;
     public GameObject JumpscareBox;
 
     // Start is called before the first frame update
     void Start()
     {
-        JumpscareModel.SetActive(false);
+        Jumpscare9.SetActive(false);
 
     }
 
@@ -19,20 +19,20 @@ public class Jumpscare : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            JumpscareModel.SetActive(true);
+            Jumpscare9.SetActive(true);
 
             StartCoroutine(Disableimg());
 
         }
-       
-        
+
+
 
     }
 
     IEnumerator Disableimg()
     {
-        yield return new WaitForSeconds(2);
-        JumpscareModel.SetActive(false);
+        yield return new WaitForSeconds(4);
+        Jumpscare9.SetActive(false);
         JumpscareBox.SetActive(false);
     }
 }
