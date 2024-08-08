@@ -26,13 +26,8 @@ public class CharacterMove : MonoBehaviour
 
         enemyRb.AddForce(lookDirection * speed);
 
-        StartCoroutine(Disableimg());
+
     }
 
-    IEnumerator Disableimg()
-    {
-        yield return new WaitForSeconds(2);
-        Jumpscare9.SetActive(false);
-        JumpscareBox.SetActive(false);
-    }
+    
 }
