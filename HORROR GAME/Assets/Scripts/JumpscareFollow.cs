@@ -31,7 +31,7 @@ public class JumpscareFollow : MonoBehaviour
 
     IEnumerator Disableimg()
     {
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(5);
         JumpscareModel.SetActive(false);
         JumpscareBox.SetActive(false);
     }

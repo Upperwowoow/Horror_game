@@ -10,6 +10,7 @@ TagManager:
   - END
   - END2
   - Enemy
+  - END3
   layers:
   - Default
   - TransparentFX

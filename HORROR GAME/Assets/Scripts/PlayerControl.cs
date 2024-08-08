@@ -49,6 +49,7 @@ public class PlayerControl : MonoBehaviour
         else if (other.gameObject.CompareTag("Enemy"))
         {
             SceneManager.LoadScene("Dead");
+
         }
     }
 
