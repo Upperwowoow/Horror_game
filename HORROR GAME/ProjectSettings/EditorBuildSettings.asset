@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Hard Level 1.unity
     guid: a219af32387bf6746a62494605cf2d8e
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: d57f0a1ad58cbec4e8d95568805bbd65
+  - enabled: 1
+    path: Assets/Scenes/Dead.unity
+    guid: 0ef6e462ddc1ef84e8890c4f3af15012
   m_configObjects: {}

@@ -46,6 +46,13 @@ public class PlayerControl : MonoBehaviour
             SceneManager.LoadScene("Level 3");
         }
 
+
+        else if (other.gameObject.CompareTag("END3"))
+        {
+            SceneManager.LoadScene("Win");
+
+        }
+
         else if (other.gameObject.CompareTag("Enemy"))
         {
             SceneManager.LoadScene("Dead");
@@ -53,4 +60,5 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
+    
 }
