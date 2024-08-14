@@ -11,6 +11,7 @@ TagManager:
   - END2
   - Enemy
   - END3
+  - HardEnd1
   layers:
   - Default
   - TransparentFX

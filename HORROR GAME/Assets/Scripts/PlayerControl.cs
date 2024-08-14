@@ -14,6 +14,7 @@ public class PlayerControl : MonoBehaviour
     //this will allow player to go forward and back by pressing W or S
     public float forwardInput;
     // Start is called before the first frame update
+    public bool jumpscared;
     void Start()
     {
 
@@ -56,6 +57,7 @@ public class PlayerControl : MonoBehaviour
         else if (other.gameObject.CompareTag("Enemy"))
         {
             SceneManager.LoadScene("Dead");
+            jumpscared = true;
 
         }
     }
