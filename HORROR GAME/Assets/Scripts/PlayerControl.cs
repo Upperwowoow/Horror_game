@@ -60,6 +60,13 @@ public class PlayerControl : MonoBehaviour
             jumpscared = true;
 
         }
+
+        else if (other.gameObject.CompareTag("HardEnd1"))
+        {
+            SceneManager.LoadScene("Hard Level 2");
+            jumpscared = true;
+
+        }
     }
 
     
