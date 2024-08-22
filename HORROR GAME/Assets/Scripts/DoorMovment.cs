@@ -4,10 +4,17 @@ using UnityEngine;
 
 public class DoorMovment : MonoBehaviour
 {
+
+
+
+    //Audio
+    private AudioSource playerAudio;
+    public AudioClip DoorSound;
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Audio
+        playerAudio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -24,6 +31,7 @@ public class DoorMovment : MonoBehaviour
         {
             transform.Translate(0, 30, 0);
             StartCoroutine(Disableimg());
+            playerAudio.PlayOneShot(DoorSound, 1.0f);
         }
 
 

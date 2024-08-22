@@ -6,11 +6,15 @@ public class JumpscareFollow : MonoBehaviour
 {
     public GameObject JumpscareModel;
     public GameObject JumpscareBox;
+    private AudioSource playerAudio;
+    public AudioClip jumpScareFollow;
 
     // Start is called before the first frame update
     void Start()
     {
         JumpscareModel.SetActive(false);
+
+        playerAudio = GetComponent<AudioSource>();
 
     }
 
@@ -22,6 +26,8 @@ public class JumpscareFollow : MonoBehaviour
             JumpscareModel.SetActive(true);
 
             StartCoroutine(Disableimg());
+
+            playerAudio.PlayOneShot(jumpScareFollow, 1.0f);
 
         }
 
