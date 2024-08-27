@@ -9534,7 +9534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0578e94d92ffe4242a5cdfd865880a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DoorSound: {fileID: 8300000, guid: 02fc3369a87fbb942ba9944f039205bb, type: 3}
+  DoorSound: {fileID: 8300000, guid: dc6e95c512a20f048bd8cc0928240458, type: 3}
 --- !u!65 &868632703
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17847,7 +17847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0578e94d92ffe4242a5cdfd865880a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DoorSound: {fileID: 8300000, guid: 02fc3369a87fbb942ba9944f039205bb, type: 3}
+  DoorSound: {fileID: 8300000, guid: dc6e95c512a20f048bd8cc0928240458, type: 3}
 --- !u!65 &1543758138
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19625,7 +19625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0578e94d92ffe4242a5cdfd865880a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DoorSound: {fileID: 8300000, guid: 02fc3369a87fbb942ba9944f039205bb, type: 3}
+  DoorSound: {fileID: 8300000, guid: dc6e95c512a20f048bd8cc0928240458, type: 3}
 --- !u!65 &1686668388
 BoxCollider:
   m_ObjectHideFlags: 0
